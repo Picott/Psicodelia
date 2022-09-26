@@ -1,7 +1,5 @@
 body {
-background-color: black;
-background-image: url(Images/fondo.jpeg);
-background-repeat: no-repeat;
+background: url(Images/fondo.jpeg) no-repeat center center fixed;
 background-size: cover;
 }
 .titulo{
@@ -17,8 +15,7 @@ background-size: cover;
   width: 60%;
   margin: auto;
   font-size: 5px;
-  background-color: white;
-  color: black;
+  color: white;
   font-style: italic;
   text-align: center;
   position: relative;
