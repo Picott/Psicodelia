@@ -2,3 +2,13 @@ body {
 background: url(Images/wecandoit.jfif) no-repeat center center fixed;
 background-size: cover;
 }
+.container-sm{
+  width: 500px;
+}
+.text-center{
+  color: white;
+}
+.container{
+  width: 800px;
+  text-align: center;
+}
