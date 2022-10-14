@@ -6,7 +6,9 @@ background-size: cover;
   width: 500px;
 }
 .text-center{
-  color: white;
+  color: black;
+  padding-top: 80px;
+  font-weight: bold;
 }
 .container{
   width: 800px;
