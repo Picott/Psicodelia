@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="css/csssurprise.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid justify-content-start">
       <a class="navbar-brand" href="#">Psicodelia</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,8 +35,8 @@
 </head>
 
 <body>
-  <div class="container bg-secondar">
-    <h1 class="text-center bg-dark">A little surprise from the people you love the most. I know how much you miss them and they know too. </h1>
+  <div class="container fluid">
+    <h1 class="text-center">A little surprise from the people you love the most. I know how much you miss them and they know too. </h1>
   </div>
   <div class="thumbnail">
     <a href="css/Imagesurprise/5.jpeg">
@@ -89,47 +89,48 @@
       </div>
     </div>
   </div>
-  <!-- Top content -->
-  <div class="top-content">
-      <div class="container">
-          <!-- End title and description row -->
-          <!-- Carousel row -->
-          <div class="row">
-              <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                  <!-- Carousel -->
-                  <div id="carousel-example" class="carousel slide">
-                      <ol class="carousel-indicators">
-                          <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-                          <li data-target="#carousel-example" data-slide-to="1"></li>
-                          <li data-target="#carousel-example" data-slide-to="2"></li>
-                      </ol>
-                      <div class="carousel-inner">
-                          <div class="carousel-item active" align="center">
-                            <video class="img-fluid" autoplay="" loop="" muted="" controls="true">
-                              <source src="css/Imagesusrprise/8.mp4" type="video/mp4" />
-                            </video>
-                          </div>
-                          <div class="carousel-item" align="center">
-                            <video class="img-fluid" autoplay="" loop="" muted="" controls="true">
-                              <source src="css/Imagesusrprise/9.mp4" type="video/mp4" />
-                            </video>
-                          </div>
-                      </div>
-                      <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                      </a>
-                  </div>
-                  <!-- End carousel -->
-              </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <div
+          id="carouselVideo"
+          class="carousel slide carousel-fade"
+          data-mdb-ride="carousel"
+        <div class="carousel-item" align="center">
+             <video class="img-fluid"  loop controls="true">
+               <source src="css/Imagesurprise/8.mp4" type="video/mp4" />
+             </video>
           </div>
-          <!-- End carousel row -->
       </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <div
+          id="carouselVideo"
+          class="carousel slide carousel-fade"
+          data-mdb-ride="carousel"
+        <div class="carousel-item" align="center">
+             <video class="img-fluid"  loop controls="true">
+               <source src="css/Imagesurprise/9.mp4" type="video/mp4" />
+             </video>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <div
+          id="carouselVideo"
+          class="carousel slide carousel-fade"
+          data-mdb-ride="carousel"
+        <div class="carousel-item" align="center">
+             <video class="img-fluid"  loop controls="true">
+               <source src="css/Imagesurprise/10.mp4" type="video/mp4" />
+             </video>
+          </div>
+      </div>
+    </div>
   </div>
+
 </body>
 
 </html>
